@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="images/favicon.ico"/>
+    <title>Flappy Bird Game</title>
+    <link rel="stylesheet" href="index3.css">
+    <script src="index3.js" defer></script>
+</head>
+<body>
+    <!-- Background for the game, make sure it's styled in CSS -->
+    <div class="background"></div>
+    
+    <!-- Bird image, with an id for JS to control -->
+    <img src="Bird-2.png" alt="Bird Image" class="bird" id="bird-1">
+    
+    <!-- Message prompting the user to start the game -->
+    <div class="message">
+        Enter To Start Game <p><span style="color: red;">&uarr;</span> ArrowUp to Control</p>
+    </div>
+    
+    <!-- Score display, these should be dynamically updated by JS -->
+    <div class="score">
+        <span class="score_title">Score:</span>
+        <span class="score_val">0</span>
+    </div>
+</body>
+</html>
